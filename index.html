@@ -1,445 +1,579 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>M4IoT '18 - The 5th International Workshop on Middleware and Applications for the Internet of Things</title>
-  <meta charset="UTF-8">
-  <meta property="og:title" content="M4IoT - Workshop on Middleware and Applications for the Internet of Things"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:url" content="http://www.m4iot.org/"/>
-  <meta name="description" content="The M4IoT workshop focuses on the middleware that enables composition of applications, services, and devices in the Internet of Things, and on the applications built on top of such middleware.">
-  <meta property="og:description" content="The M4IoT workshop focuses on the middleware that enables composition of applications, services, and devices in the Internet of Things, and on the applications built on top of such middleware."/>
-  <meta name="viewport" content="initial-scale=1">
-  <link rel="author" href="Erik Wittern"/>
+  <head>
+    <title>
+      M4IoT '19 - The 6th International Workshop on Middleware and Applications
+      for the Internet of Things
+    </title>
+    <meta charset="UTF-8" />
+    <meta
+      property="og:title"
+      content="M4IoT - Workshop on Middleware and Applications for the Internet of Things"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.m4iot.org/" />
+    <meta
+      name="description"
+      content="The M4IoT workshop focuses on the middleware that enables composition of applications, services, and devices in the Internet of Things, and on the applications built on top of such middleware."
+    />
+    <meta
+      property="og:description"
+      content="The M4IoT workshop focuses on the middleware that enables composition of applications, services, and devices in the Internet of Things, and on the applications built on top of such middleware."
+    />
+    <meta name="viewport" content="initial-scale=1" />
+    <link rel="author" href="Erik Wittern" />
 
-  <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32_18.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16_18.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32_19.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16_19.png"
+    />
 
-  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Martel:400,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/m4iot18.css">
-</head>
-<body>
-  <div id="top-of-page"></div>
-  
-  <nav>
-    <ul>
-      <li><a href="#program">Program</a></li>
-      <li><a href="#cfp">Call for papers</a></li>
-      <li><a href="#submissions">Submissions</a></li>
-      <li><a href="#dates-location">Dates & location</a></li>
-      <li><a href="#organization">Organization</a></li>
-    </ul>
-  </nav>
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Martel:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/m4iot19.css" />
+  </head>
+  <body>
+    <div id="top-of-page"></div>
 
+    <nav>
+      <ul>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#cfp">Call for papers</a></li>
+        <li><a href="#submissions">Submissions</a></li>
+        <li><a href="#dates-location">Dates & location</a></li>
+        <li><a href="#organization">Organization</a></li>
+      </ul>
+    </nav>
 
-  <div class="logo">
-    <img src="img/logo18.png" alt="M4IoT logo" style="width:100%;"/>
-    <p style="font-size: 0.75rem;">
-      The 5th International Workshop on Middleware and Applications for the Internet of Things<br>
-      (At the <a href="http://2018.middleware-conference.org/" target="_blank">2018 ACM/IFIP/USENIX International Middleware Conference</a> in Rennes, France)
-    </p>
-  </div>
-
-
-  <div class="container">
-    <h1 id="welcome">Welcome</h1>
-    <p>
-      Following the successful <a href="/2017" target="_blank">2017 edition</a> of the Federated Workshop on Middleware and Applications for the Internet of Things, we are happy to announce the 2018 edition. We are looking forward your submissions!
-    </p>
-    <h3>Past editions of M4IoT</h3>
-    <ul>
-      <li>
-        <a href="http://www.m4iot.org/2017/" target="_blank">4th Workshop on Middleware and Applications for the Internet of Things (M4IoT 2017)</a> <span class="location">Las Vegas, Nevada, USA</span> (<a href="https://dl.acm.org/citation.cfm?id=3152141" target="_blank">proceedings</a>)
-      </li>
-
-      <li>
-        <a href="http://www.lii.enac.fr/event/m4iot16/" target="_blank">3rd Workshop on Middleware for Context-Aware Applications in the IoT (M4IoT 2016)</a> <span class="location">Trento, Italy</span> (<a href="https://dl.acm.org/citation.cfm?id=3008631" target="_blank">proceedings</a>)
-      </li>
-
-      <li>
-        <a href="http://www.lii.enac.fr/event/m4iot15/" target="_blank">2nd Workshop on Middleware for Context-Aware Applications in the IoT (M4IoT 2015)</a> <span class="location">Vancouver, British Columbia, Canada</span> (<a href="https://dl.acm.org/citation.cfm?id=2836127" target="_blank">proceedings</a>)
-      </li>
-
-      <li>
-        <a href="http://www.lii.enac.fr/event/m4iot14/" target="_blank">1st Workshop on Middleware for Context-Aware Applications in the IoT (M4IoT 2014)</a> <span class="location">Bordeaux, France</span> (<a href="https://dl.acm.org/citation.cfm?id=2676743" target="_blank">proceedings</a>)
-      </li>
-    </ul>
-    <div class="row">
-      <a href="#top-of-page" class="btn-up">
-        <div class="arrow-up"></div>
-      </a>
+    <div class="logo">
+      <img src="img/logo19.png" alt="M4IoT logo" style="width:100%;" />
+      <p style="font-size: 0.75rem;">
+        The 6th International Workshop on Middleware and Applications for the
+        Internet of Things<br />
+        (At the
+        <a href="http://2019.middleware-conference.org/" target="_blank"
+          >2019 ACM/IFIP/USENIX International Middleware Conference</a
+        >
+        in UC Davis, CA, USA)
+      </p>
     </div>
 
+    <div class="container">
+      <h1 id="welcome">Welcome</h1>
+      <p>
+        Following the successful
+        <a href="/2018" target="_blank">2018 edition</a> editions of the
+        Workshop on Middleware and Applications for the Internet of Things, we
+        are happy to announce the 2019 edition. We are looking forward your
+        submissions!
+      </p>
+      <h3>Past editions of M4IoT</h3>
+      <ul>
+        <li>
+          <a href="http://www.m4iot.org/2018/" target="_blank"
+            >5th Workshop on Middleware and Applications for the Internet of
+            Things (M4IoT 2018)</a
+          >
+          <span class="location">Rennes, France</span> (<a
+            href="https://dl.acm.org/citation.cfm?id=3286719"
+            target="_blank"
+            >proceedings</a
+          >)
+        </li>
 
-    <h1 id="program">Program</h1>
-    <p>
-      The 5th International Workshop on Middleware and Applications for the Internet of Things (M4IoT) will be held on <b>December 11th 2018</b> together with the <a href="http://mecc2018.dcc.fc.up.pt/" target="_blank">3rd Workshop on Middleware for Edge Clouds & Cloudlets</a> at the <a href="http://2018.middleware-conference.org/">2018 ACM/IFIP International Middleware Conference</a> in Rennes, France.
-    </p>
+        <li>
+          <a href="http://www.m4iot.org/2017/" target="_blank"
+            >4th Workshop on Middleware and Applications for the Internet of
+            Things (M4IoT 2017)</a
+          >
+          <span class="location">Las Vegas, Nevada, USA</span> (<a
+            href="https://dl.acm.org/citation.cfm?id=3152141"
+            target="_blank"
+            >proceedings</a
+          >)
+        </li>
 
-    <h4>Tuesday, December 11th 2018</h4>
+        <li>
+          <a href="http://www.lii.enac.fr/event/m4iot16/" target="_blank"
+            >3rd Workshop on Middleware for Context-Aware Applications in the
+            IoT (M4IoT 2016)</a
+          >
+          <span class="location">Trento, Italy</span> (<a
+            href="https://dl.acm.org/citation.cfm?id=3008631"
+            target="_blank"
+            >proceedings</a
+          >)
+        </li>
 
-    <ul>
-      <li>
-        <strong>9:00 - Introduction M4IoT/MECC and keynote by Paulo Ferreira</strong><br>
-        Topic: <em>Live Migration and Garbage Collection for Big Data Java Applications</em><br>
-        <strong>Abstract:</strong> The need to process large amounts of data, Big Data, is a reality, and ranges from scientific experiments to social networks. Big Data means processing and storing massive amounts of data in a efficient way, possibly on the cloud or on cloudlets. With easy and fast development cycles, managed object-oriented programming languages (such as Java) are now preferred languages to implement most Big Data platforms.
-        
-        With the increasing importance of Big Data, we identify two main requirements that are common to most platforms running on any tier of modern cloud computing platforms: i) the ability to tolerate faults and to adapt to the number of nodes to satisfy new workload requirements, and ii) the ability to scale with the amount of local resources.
-        
-        In this talk, we address two solutions to deal with the above requirements: i) JLM, live migration of running Java applications, and ii) NG2C, an N-generational Garbage Collection (GC) algorithm. Both solutions improve Big Data platforms performance by decreasing the number of objects to copy between physical nodes (for migration) and heap generations (for GC). With JLM and NG2C, both latency and throughput is improved for Big Data applications when a migration or a GC takes place, thus increasing applications performance.
-      </li>
+        <li>
+          <a href="http://www.lii.enac.fr/event/m4iot15/" target="_blank"
+            >2nd Workshop on Middleware for Context-Aware Applications in the
+            IoT (M4IoT 2015)</a
+          >
+          <span class="location">Vancouver, British Columbia, Canada</span> (<a
+            href="https://dl.acm.org/citation.cfm?id=2836127"
+            target="_blank"
+            >proceedings</a
+          >)
+        </li>
 
-      <li>
-        <strong>10:00 - M4IoT Session: Privacy</strong>
-        <ul>
-          <li><b>Public Video Surveillance: Using the Fog to Increase Privacy</b> (M. Grambow, J. Hasenburg, D. Bermbach) <span class="gray">position paper</span></li>
-          <li><b>Towards automated privacy risk assessments in IoT systems</b> (M. Markovic, W. Asif, D. Corsar, N. Jacobs, P. Edwards, M. Rajarajan, C. Cottrill) <span class="gray">position paper</span></li>
-        </ul>
-      </li>
+        <li>
+          <a href="http://www.lii.enac.fr/event/m4iot14/" target="_blank"
+            >1st Workshop on Middleware for Context-Aware Applications in the
+            IoT (M4IoT 2014)</a
+          >
+          <span class="location">Bordeaux, France</span> (<a
+            href="https://dl.acm.org/citation.cfm?id=2676743"
+            target="_blank"
+            >proceedings</a
+          >)
+        </li>
+      </ul>
+      <div class="row">
+        <a href="#top-of-page" class="btn-up">
+          <div class="arrow-up"></div>
+        </a>
+      </div>
 
-      <li>
-        <strong>10:30 - Coffee break</strong>
-      </li>
+      <h1 id="program">Program</h1>
+      <p>
+        T.B.D.
+      </p>
 
-      <li>
-        <strong>11:00 - M4IoT Session: Privacy (cont.) and QoS & Cost</strong>
-        <ul>
-          <li><b>Towards End-to-end Privacy for Publish/Subscribe Architectures in the Internet of Things</b> (S. Coroller, S. Chabridon, M. Laurent, D. Conan, J. Leneutre) <span class="gray">position paper</span></li>
-          <li><b>Real-time Distributed In-Situ Benchmarking of Energy Harvesting IoT Devices</b> (A. Thangarajan, F. Yang, W. Joosen, D. Hughes)</li>
-          <li><b>Cross-layer QoS-Aware Resource Allocation for IoT-Enabled Service Choreographies</b> (F. Costa, N. Georgantas, R. Gomes, R. da Rocha, G. Bouloukakis) <span class="gray">position paper</span></li>
-        </ul>
-      </li>
+      <div class="row">
+        <a href="#top-of-page" class="btn-up">
+          <div class="arrow-up"></div>
+        </a>
+      </div>
 
-      <li>
-        <strong>12:00 - Lunch break</strong>
-      </li>
+      <h1 id="cfp">Call for papers</h1>
+      <p>
+        The Internet of Things (IoT) is creating new services and applications
+        across various domains, including smart electricity grids, intelligent
+        transportation, healthcare, smart homes, and energy management. As a
+        consequence, a complex ecosystem of interconnected applications,
+        services, and physical and virtual devices, characterized by a high
+        degree of heterogeneity, emerges. Such a heterogeneity can be addressed
+        by middleware platforms to abstract away the specificities of these
+        devices, promote interoperability among them, and leverage the
+        development of services and applications. In this ecosystem, enabled by
+        middleware, devices share contextual data or receive control commands;
+        services consume, process, and/or provide data; and applications
+        leverage services and devices to fulfill users’ needs.
+      </p>
 
-      <li>
-        <strong>13:30 - M4IoT Session: Fog and Autonomic IoT</strong><br>
-        <ul>
-          <li><b>Supporting the Evaluation of Fog-based IoT Applications During the Design Phase</b> (J. Hasenburg, S. Werner, D. Bermbach)</li>
-          <li><b>A Middleware Environment for Developing Internet of Things Applications</b> (C. Batista, P. Silva, E. Cavalcante, T. Batista, T. Barros, C. Takahasi, T. Cardoso, J. Neto, R. Ribeiro)</li>
-          <li><b>Expect the unexpected: Towards a middleware for policy adaptation in IoT platforms</b> (D. Jonckers, B. Lagaisse, W. Joosen) <span class="gray">position paper</span></li>
-          <li><b>Towards an Intelligent User-Oriented Middleware for Opportunistic Composition of Services in Ambient Spaces</b> (W. Younes, S. Trouilhet, F. Adreit, J. Arcangeli)</li>
-        </ul>
-      </li>
+      <p>
+        This workshop focuses on two fundamental components in such ecosystems,
+        namely (i) the middleware to compose applications, services, and devices
+        and (ii) the applications built on top of such middleware. Central
+        topics of interest include the architecture of these components, how
+        they process data, how they communicate with each other, and the process
+        of how they are designed, implemented, and operated.
+      </p>
 
-      <li>
-        <strong>15:00 - Coffee break</strong>
-      </li>
+      <p>
+        <strong
+          >Specific topics of interest include, but are not limited to:</strong
+        >
+      </p>
+      <ul>
+        <li>
+          Abstractions and API composition for IoT applications
+          <ul>
+            <li>
+              Design and specify views, abstractions and APIs for IoT
+              applications, sensors and devices
+            </li>
+            <li>
+              Middleware concepts enabling end users to interconnect devices and
+              applications (e.g., via APIs)
+            </li>
+            <li>Architectural concerns for building IoT applications</li>
+            <li>
+              Integration of IoT devices and cloud resources as well as ensuing
+              interaction patterns
+            </li>
+            <li>Composition and interoperability of IoT services</li>
+          </ul>
+        </li>
 
-      <li>
-        <strong>15:30 - MECC Session</strong>
-        <ul>
-          <li><b>METRIC: A Middleware for Entry Transactional Database Clustering at the Edge</b> (E. Saurez, B. Balasubramanian, R. Schlichting, B. Tschaen, Z. Huang, S. Puzhavakath Narayanan, U. Ramachandran)</li>
-          <li><b>ShareLatex on the Edge: Evaluation of the Hybrid Core/Edge Deployment of a Microservices-based Application</b> (G. Tato, M. Bertier, E. Rivière, C. Tedeschi)</li>
-        </ul>
-      </li>
+        <li>
+          Software engineering for IoT applications
+          <ul>
+            <li>Development methodologies, tools, and experience</li>
+            <li>
+              Speed of prototyping and ease of deployment of user-programmable
+              content
+            </li>
+          </ul>
+        </li>
 
-      <li>
-        <strong>16:15 - Discussion and Wrap-Up</strong>
-      </li>
-    </ul>
+        <li>
+          Services and infrastructure for IoT applications
+          <ul>
+            <li>
+              Cloud-, edge-, fog-, and mobile cloud-based services for IoT
+            </li>
+            <li>Data management for IoT (storage and analytics)</li>
+            <li>
+              Design of IoT platforms and experience of using IoT platforms
+            </li>
+            <li>
+              Distribution of services and applications over sensors, mobile
+              devices, edge, fog, and cloud resources
+            </li>
+            <li>Semantic web services for the IoT</li>
+            <li>Discovery and capability matching services</li>
+            <li>Simulated IoT infrastructure and testbeds</li>
+          </ul>
+        </li>
 
-    <div class="row">
-      <a href="#top-of-page" class="btn-up">
-        <div class="arrow-up"></div>
-      </a>
+        <li>
+          Processing paradigms and services
+          <ul>
+            <li>Stream processing and distributed event-based systems</li>
+            <li>Complex event processing for the IoT</li>
+            <li>Intelligent data transformation services</li>
+          </ul>
+        </li>
+
+        <li>
+          Quality aspects
+          <ul>
+            <li>Security and privacy</li>
+            <li>Quality of context capabilities</li>
+            <li>
+              Access control, especially in systems spanning multiple
+              administrative domains
+            </li>
+            <li>
+              System-wide quality concerns such as performance, availability,
+              and fault-tolerance
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="row">
+        <a href="#top-of-page" class="btn-up">
+          <div class="arrow-up"></div>
+        </a>
+      </div>
+
+      <h1 id="submissions">Submissions</h1>
+      <p>
+        M4IoT 2019 seeks two kinds of paper submissions:
+      </p>
+      <ul>
+        <li>
+          <strong>Regular research papers (6 pages)</strong> describing
+          original, substantial contributions in research and/or practice.
+        </li>
+        <li>
+          <strong>Position papers and experience reports (4 pages)</strong>
+          describing emerging results, lessons learned, and open problems from
+          concrete applications, or novel ideas and perspectives on research.
+        </li>
+      </ul>
+      <p>
+        Please indicate the respective paper type on the title page of your
+        submission.
+      </p>
+      <p>
+        All submitted papers should describe original work and must not be
+        published or under review anywhere. The papers will be judged on the
+        basis of their clarity, relevance, originality, and contribution. The
+        page limits must include abstract, all figures, tables, and references.
+      </p>
+      <p>
+        Along with the paper, you are encouraged to submit additional material
+        (e.g., a link to a YouTube video) on a separate page which will not be
+        published as part of the proceedings.
+      </p>
+      <p>
+        All papers should follow the
+        <a
+          href="http://www.acm.org/publications/proceedings-template"
+          target="_blank"
+          >2017 ACM Standard Proceedings Template</a
+        >
+        for formatting and be submitted in PDF format via the
+        <strong
+          ><a href="https://m4iot19.hotcrp.com/" target="_blank"
+            >HotCRP submission system</a
+          ></strong
+        >.
+      </p>
+      <p>
+        All accepted and presented papers will appear in a Middleware 2019
+        Companion Proceedings, which will be available in the ACM Digital
+        Library.
+      </p>
+      <div class="row">
+        <a href="#top-of-page" class="btn-up">
+          <div class="arrow-up"></div>
+        </a>
+      </div>
+
+      <h1 id="dates-location">Dates & location</h1>
+      <table class="dates">
+        <tr>
+          <td>
+            Paper submission deadline:
+          </td>
+          <td>
+            <strong>Aug. 30th, 2019</strong>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Author notification:
+          </td>
+          <td>
+            <strong>Sep. 27th, 2019</strong>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Camera-ready copies:
+          </td>
+          <td><strong>Oct. 14th, 2019</strong><br /></td>
+        </tr>
+        <!-- <tr>
+          <td>
+            Middleware early registration:
+          </td>
+          <td>
+            <strong
+              >Oct. 31st 2018 (<a
+                href="http://2018.middleware-conference.org/index.php/registration/"
+                target="_blank"
+                >details</a
+              >)</strong
+            >
+          </td>
+        </tr> -->
+      </table>
+
+      <p>
+        M4IoT is co-located with the
+        <a href="http://2019.middleware-conference.org/" target="_blank"
+          >2019 ACM/IFIP/USENIX International Middleware Conference</a
+        >
+        in UC Davis, CA, USA.
+      </p>
+
+      <div class="row">
+        <a href="#top-of-page" class="btn-up">
+          <div class="arrow-up"></div>
+        </a>
+      </div>
+
+      <h1 id="organization">Organization</h1>
+
+      <h3>Workshop co-chairs</h3>
+      <ul>
+        <li>David Bermbach <span class="location">TU Berlin, Germany</span></li>
+        <li>
+          Everton Cavalcante
+          <span class="location"
+            >Federal University of Rio Grande do Norte, Brazil</span
+          >
+        </li>
+        <li>
+          Stéphane Delbruel
+          <span class="location">Leuven University, Belgium</span>
+        </li>
+        <li>
+          David Eyers
+          <span class="location">University of Otago, New Zealand</span>
+        </li>
+        <li>
+          Danny Hughes <span class="location">Leuven University, Belgium</span>
+        </li>
+        <li>
+          Chantal Taconet <span class="location">Télécom SudParis, France</span>
+        </li>
+        <li>
+          Erik Wittern
+          <span class="location">IBM T.J. Watson Research Center, USA</span>
+        </li>
+      </ul>
+
+      <h3>Preliminary program committee</h3>
+      <ul>
+        <li>
+          Davy Preuveneers
+          <span class="location">Leuven University, Belgium</span>
+        </li>
+        <li>
+          Denis Conan <span class="location">Télécom SudParis, France</span>
+        </li>
+        <li>
+          Douglas Schmidt
+          <span class="location">Vanderbilt University, USA</span>
+        </li>
+        <li>
+          Flávia Delicato
+          <span class="location"
+            >Federal University of Rio de Janeiro, Brazil</span
+          >
+        </li>
+        <li>
+          Florian Daniel
+          <span class="location">Politecnico di Milano, Italy</span>
+        </li>
+        <li>Frank Pallas <span class="location">TU Berlin, Germany</span></li>
+        <li>
+          Jatinder Singh
+          <span class="location">University of Cambridge, United Kingdom</span>
+        </li>
+        <li>
+          Jean Bacon
+          <span class="location">University of Cambridge, United Kingdom</span>
+        </li>
+        <li>
+          Jean-Paul Arcangeli
+          <span class="location">University of Toulouse, France</span>
+        </li>
+        <li>
+          Jo Ueyama
+          <span class="location">Universidade de São Paulo, Brazil</span>
+        </li>
+        <li>
+          Ken Moody
+          <span class="location">University of Cambridge, United Kingdom</span>
+        </li>
+        <li>
+          Kevin Lee
+          <span class="location"
+            >Nottingham Trent University, United Kingdom</span
+          >
+        </li>
+        <li>
+          Manuele Kirsch Pinheiro
+          <span class="location">Paris Sorbonne University, France</span>
+        </li>
+        <li>
+          Paul Grace
+          <span class="location"
+            >University of Southampton, United Kingdom</span
+          >
+        </li>
+        <li>
+          Paulo F. Pires
+          <span class="location"
+            >Federal University of Rio Rio de Janeiro, Brazil</span
+          >
+        </li>
+        <li>
+          Philippe Roose <span class="location">University of Pau, France</span>
+        </li>
+        <li>
+          Romain Laborde
+          <span class="location">IRIT, Paul Sabatier University, France</span>
+        </li>
+        <li>
+          Shigeng Zhang
+          <span class="location">Central South University, China</span>
+        </li>
+        <li>
+          Sophie Chabridon
+          <span class="location">Télécom SudParis, France</span>
+        </li>
+        <li>Stefan Tai <span class="location">TU Berlin, Germany</span></li>
+        <li>
+          Stéphane Lavirotte
+          <span class="location">Nice University, France</span>
+        </li>
+        <li>
+          Thierry Coupaye <span class="location">Orange Labs, France</span>
+        </li>
+        <li>
+          Thomas Pasquier
+          <span class="location">University of Bristol, UK</span>
+        </li>
+        <li>Vinod Muthusamy <span class="location">IBM Research, USA</span></li>
+      </ul>
+
+      <p>
+        Contact us at
+        <a href="mailto:m4iot@mcc.tu-berlin.de">m4iot@mcc.tu-berlin.de</a>
+      </p>
+
+      <div class="row">
+        <a href="#top-of-page" class="btn-up">
+          <div class="arrow-up"></div>
+        </a>
+      </div>
+
+      <a
+        class="twitter-timeline"
+        data-lang="en"
+        data-height="500"
+        href="https://twitter.com/M4IoT"
+        >Tweets by M4IoT</a
+      >
+      <script
+        async
+        src="//platform.twitter.com/widgets.js"
+        charset="utf-8"
+      ></script>
+
+      <div class="row">
+        <a href="#top-of-page" class="btn-up">
+          <div class="arrow-up"></div>
+        </a>
+      </div>
+
+      <p class="gray center">
+        <small>
+          2019 - Contact us at
+          <a href="mailto:m4iot@mcc.tu-berlin.de">m4iot@mcc.tu-berlin.de</a>
+        </small>
+      </p>
+
+      <script>
+        (function(i, s, o, g, r, a, m) {
+          i["GoogleAnalyticsObject"] = r;
+          (i[r] =
+            i[r] ||
+            function() {
+              (i[r].q = i[r].q || []).push(arguments);
+            }),
+            (i[r].l = 1 * new Date());
+          (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m);
+        })(
+          window,
+          document,
+          "script",
+          "https://www.google-analytics.com/analytics.js",
+          "ga"
+        );
+        ga("create", "UA-100326039-1", "auto");
+        ga("send", "pageview");
+      </script>
     </div>
-
-
-    <h1 id="cfp">Call for papers</h1>
-    <p>
-      The Internet of Things (IoT) is creating new services and applications across various domains, including smart electricity grids, intelligent transportation, healthcare, smart homes, and energy management. As a consequence, a complex ecosystem of interconnected applications, services, and physical and virtual devices, characterized by a high degree of heterogeneity, emerges. Such heterogeneity can be addressed by middleware platforms to abstract away the specificities of these devices, promote interoperability among them, and leverage the development of services and applications. In this ecosystem, enabled by middleware, devices share contextual data or receive control commands; services consume, process, and/or provide data; and applications leverage services and devices to fulfill users’ needs.
-    </p>
-
-    <p>
-      This workshop focuses on two fundamental components in such ecosystems, namely (i) the middleware to compose applications, services, and devices and (ii) the applications built on top of such middleware. Central topics of interest include the architecture of these components, how they process data, how they communicate with each other, and the process of how they are designed, implemented, and operated.
-
-    </p>
-
-    <p>
-      <strong>Specific topics of interest include, but are not limited to:</strong>
-    </p>
-    <ul>
-      <li>
-        Abstractions and API composition for IoT applications
-        <ul>
-          <li>Design and specify views, abstractions and APIs for IoT applications, sensors and devices</li>
-          <li>Middleware concepts enabling end users to interconnect devices and applications (e.g., via APIs)</li>
-          <li>Architectural concerns for building IoT applications</li>
-          <li>Integration of IoT devices and cloud resources as well as ensuing interaction patterns</li>
-          <li>Composition and interoperability of IoT services</li>
-        </ul>
-      </li>
-
-      <li>
-        Software engineering for IoT applications
-        <ul>
-          <li>Development methodologies, tools, and experience</li>
-          <li>Speed of prototyping and ease of deployment of user-programmable content</li>
-        </ul>
-      </li>
-
-      <li>
-        Services and infrastructure for IoT applications
-        <ul>
-          <li>Services on the cloud and the edge for the IoT</li>
-          <li>Data management for the IoT</li>
-          <li>Design of IoT platforms and experience of using IoT platforms (e.g., FIWARE)</li>
-          <li>Distribution of services and applications over sensors, mobile devices, edge, fog, and cloud resources</li>
-          <li>Semantic web services for the IoT</li>
-          <li>Discovery and capability matching services</li>
-          <li>Simulated IoT infrastructure and testbeds</li>
-        </ul>
-      </li>
-
-      <li>
-        Processing paradigms and services
-        <ul>
-          <li>Stream processing and distributed event-based systems</li>
-          <li>Complex event processing for the IoT</li>
-          <li>Intelligent data transformation services</li>
-        </ul>
-      </li>
-
-      <li>
-        Quality aspects
-        <ul>
-          <li>Security and privacy</li>
-          <li>Quality of context capabilities</li>
-          <li>Access control, especially in systems spanning multiple administrative domains</li>
-          <li>System-wide quality concerns such as performance, availability, and fault-tolerance</li>
-        </ul>
-      </li>
-    </ul>
-    <div class="row">
-      <a href="#top-of-page" class="btn-up">
-        <div class="arrow-up"></div>
-      </a>
-    </div>
-
-
-    <h1 id="submissions">Submissions</h1>
-    <p>
-      M4IoT 2018 seeks two kinds of paper submissions:
-    </p>
-    <ul>
-      <li>
-        <strong>Regular research papers (6 pages)</strong> describing original, substantial contributions in research and/or practice.
-      </li>
-      <li>
-        <strong>Position papers and experience reports (4 pages)</strong> describing emerging results, lessons learned, and open problems from concrete applications, or novel ideas and perspectives on research.
-      </li>
-    </ul>
-    <p>
-      Please indicate the respective paper type on the title page of your submission.
-    </p>
-    <p>
-      All submitted papers should describe original work and must not be published or under review anywhere. The papers will be judged on the basis of their clarity, relevance, originality, and contribution. The page limits must include abstract, all figures, tables, and references.
-    </p>
-    <p>
-      Along with the paper, you are encouraged to submit additional material (e.g., a link to a YouTube video) on a separate page which will not be published as part of the proceedings.
-    </p>
-    <p>
-      All papers should follow the <a href="http://www.acm.org/publications/proceedings-template" target="_blank">2017 ACM Standard Proceedings Template</a> for formatting and be submitted in PDF format via the <strong><a href="https://m4iot18.hotcrp.com/" target="_blank">HotCRP submission system</a></strong>.
-    </p>
-    <p>
-      All accepted and presented papers will appear in a Middleware 2018 Companion Proceedings, which will be available in the ACM Digital Library.
-    </p>
-    <div class="row">
-      <a href="#top-of-page" class="btn-up">
-        <div class="arrow-up"></div>
-      </a>
-    </div>
-
-
-    <h1 id="dates-location">Dates & location</h1>
-    <table class="dates">
-      <tr>
-        <td>
-          Paper submission deadline:
-        </td>
-        <td>
-          <strong class="red">Sep. 19th, 2018</strong><br>
-          <strong style="text-decoration: line-through;">Sep. 12th, 2018</strong>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Author notification:
-        </td>
-        <td>
-          <strong>Oct. 10th, 2018</strong>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Camera-ready copies:
-        </td>
-        <td>
-          <strong class="red">Oct. 27th, 2018</strong><br>
-          <strong style="text-decoration: line-through;">Oct. 19th 2018</strong>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Middleware early registration:
-        </td>
-        <td>
-          <strong>Oct. 31st 2018 (<a href="http://2018.middleware-conference.org/index.php/registration/" target="_blank">details</a>)</strong>
-        </td>
-      </tr>
-    </table>
-
-    <p>
-      M4IoT is co-located with the <a href="http://2018.middleware-conference.org/" target="_blank">2018 ACM/IFIP/USENIX International Middleware Conference</a> in Rennes, France.
-    </p>
-
-    <div class="row">
-      <a href="#top-of-page" class="btn-up">
-        <div class="arrow-up"></div>
-      </a>
-    </div>
-
-
-    <h1 id="organization">Organization</h1>
-
-    <h3>Workshop co-chairs</h3>
-    <ul>
-      <li>
-        David Bermbach <span class="location">TU Berlin, Germany</span>
-      </li>
-      <li>
-        Everton Cavalcante <span class="location">Federal University of Rio Grande do Norte, Brazil</span>
-      </li>
-      <li>
-        Stéphane Delbruel <span class="location">Leuven University, Belgium</span>
-      </li>
-      <li>
-        David Eyers <span class="location">University of Otago, New Zealand</span>
-      </li>
-      <li>
-        Danny Hughes <span class="location">Leuven University, Belgium</span>
-      </li>
-      <li>
-        Chantal Taconet <span class="location">Télécom SudParis, France</span>
-      </li>
-      <li>
-        Erik Wittern <span class="location">IBM T.J. Watson Research Center, USA</span>
-      </li>
-    </ul>
-
-    <h3>Preliminary program committee</h3>
-    <ul>
-      <li>
-        Davy Preuveneers <span class="location">Leuven University, Belgium</span>
-      </li>
-      <li>
-        Denis Conan <span class="location">Télécom SudParis, France</span>
-      </li>
-      <li>
-        Douglas Schmidt <span class="location">Vanderbilt University, USA</span>
-      </li>
-      <li>
-        Flávia Delicato <span class="location">Federal University of Rio de Janeiro, Brazil</span>
-      </li>
-      <li>
-        Florian Daniel <span class="location">Politecnico di Milano, Italy</span>
-      </li>
-      <li>
-        Frank Pallas <span class="location">TU Berlin, Germany</span>
-      </li>
-      <li>
-        Jatinder Singh <span class="location">University of Cambridge, United Kingdom</span>
-      </li>
-      <li>
-        Jean Bacon <span class="location">University of Cambridge, United Kingdom</span>
-      </li>
-      <li>
-        Jean-Paul Arcangeli <span class="location">University of Toulouse, France</span>
-      </li>
-      <li>
-        Jo Ueyama <span class="location">Universidade de São Paulo, Brazil</span>
-      </li>
-      <li>
-        Ken Moody <span class="location">University of Cambridge, United Kingdom</span>
-      </li>
-      <li>
-        Kevin Lee <span class="location">Nottingham Trent University, United Kingdom</span>
-      </li>
-      <li>
-        Manuele Kirsch Pinheiro <span class="location">Paris Sorbonne University, France</span>
-      </li>
-      <li>
-        Paul Grace <span class="location">University of Southampton, United Kingdom</span>
-      </li>
-      <li>
-        Paulo F. Pires <span class="location">Federal University of Rio Rio de Janeiro, Brazil</span>
-      </li>
-      <li>
-        Philippe Roose <span class="location">University of Pau, France</span>
-      </li>
-      <li>
-        Romain Laborde <span class="location">IRIT, Paul Sabatier University, France</span>
-      </li>
-      <li>
-        Shigeng Zhang <span class="location">Central South University, China</span>
-      </li>
-      <li>
-        Sophie Chabridon <span class="location">Télécom SudParis, France</span>
-      </li>
-      <li>
-        Stefan Tai <span class="location">TU Berlin, Germany</span>
-      </li>
-      <li>
-        Stéphane Lavirotte <span class="location">Nice University, France</span>
-      </li>
-      <li>
-        Thierry Coupaye <span class="location">Orange Labs, France</span>
-      </li>
-      <li>
-        Thomas Pasquier <span class="location">University of Bristol, UK</span>
-      </li>
-      <li>
-        Vinod Muthusamy <span class="location">IBM Research, USA</span>
-      </li>      
-    </ul>
-
-    <p>
-      Contact us at <a href="mailto:m4iot@mcc.tu-berlin.de">m4iot@mcc.tu-berlin.de</a>
-    </p>
-
-    <div class="row">
-      <a href="#top-of-page" class="btn-up">
-        <div class="arrow-up"></div>
-      </a>
-    </div>
-
-    <a class="twitter-timeline" data-lang="en" data-height="500" href="https://twitter.com/M4IoT">Tweets by M4IoT</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    <div class="row">
-      <a href="#top-of-page" class="btn-up">
-        <div class="arrow-up"></div>
-      </a>
-    </div>
-
-    <p class="gray center">
-      <small>
-         2018 - Contact us at <a href="mailto:m4iot@mcc.tu-berlin.de">m4iot@mcc.tu-berlin.de</a>
-      </small>
-    </p>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-100326039-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-
-  </div>
-</body>
+  </body>
 </html>
