@@ -236,6 +236,10 @@ table.dates td {
   color: gray;
 }
 
+.em {
+  font-style: italic;
+}
+
 .red {
   color: red;
 }
