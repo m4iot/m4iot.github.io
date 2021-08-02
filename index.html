@@ -16,8 +16,32 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Martel:400,700" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="css/m4iot21.css" />
+		
+		<script type="text/javascript">
+			function sortList() {
+				var list, i, switching, b, shouldSwitch;
+				list = document.getElementById("pc");
+				switching = true;
+				while (switching) {
+					switching = false;
+					b = list.getElementsByTagName("li");
+					for (i = 0; i < (b.length - 1); i++) {
+						shouldSwitch = false;
+						if (b[i].innerHTML.toLowerCase() > b[i+1].innerHTML.toLowerCase()) {
+							shouldSwitch = true;
+							break;
+						}
+					}
+					if (shouldSwitch) {
+						b[i].parentNode.insertBefore(b[i+1], b[i]);
+						switching = true;
+					}
+				}
+			}
+		</script>
+		
     </head>
-    <body>
+    <body onLoad="sortList()"> 
         <div id="top-of-page"></div>
         <nav>
             <ul>
@@ -181,14 +205,12 @@
             <h3>Workshop Co-chairs</h3>
             <ul>
                 <li>David Bermbach <span class="location">Berlin University of Technology, Germany</span></li>
+				<li>David Eyers <span class="location">University of Otago, New Zealand</span></li>
                 <li>Everton Cavalcante <span class="location">Federal University of Rio Grande do Norte, Brazil</span> </li>
                 <li>Stéphane Delbruel <span class="location">University of Oslo, Norway</span></li>
-                <li>David Eyers <span class="location">University of Otago, New Zealand</span></li>
             </ul>
             <h3>Program Committee</h3>
-            <ul>
-				<li>Under formation</li>
-				<!--
+            <ul id="pc">
 				<li>Rossana Andrade <span class="location">Federal University of Ceará, Brazil</span></li>
 				<li>Jean-Paul Arcangeli <span class="location">University of Toulouse III - Paul Sabatier, France</span></li>
 				<li>Thais Batista <span class="location">Federal University of Rio Grandde do Norte, Brazil</span></li>
@@ -211,7 +233,6 @@
 				<li>Chantal Taconet <span class="location">Télécom SudParis/Institute Polytechnique de Paris, France</span></li>
  				<li>Jó Ueyama <span class="location">University of São Paulo, Brazil</span></li>
 				<li>Shigeng Zhang <span class="location">Central South University, China</span></li>
-				-->
 			</ul>
 			
             <p style="margin-top: 50px">Contact us at <a href="mailto:m4iot@mcc.tu-berlin.de">m4iot@mcc.tu-berlin.de</a></p>
